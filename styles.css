@@ -45,7 +45,7 @@ button a {
 }
 .btn {
     display: inline-block; /*PARA PODER MODIFICAR EL WIDTH Y EL HEIGHT*/
-    background-color: aqua;
+    background-color: blueviolet;
     width: 100px;
     height: 50px;
     border-radius: 10px;
@@ -54,11 +54,14 @@ button a {
 }
 
 .btn:hover {
-    background-color: aquamarine;
+    background-color: rgb(218, 183, 119);
     text-decoration: underline;
     color: white;
 }
 
 .image { /*NO PUEDO USAR MARGIN PORQUE TODO EL CONTENIDO SE VA A MOVER*/
     position: relative;
+    top: 150px;
+    right: 50px;
+    z-index: 1;
 }
